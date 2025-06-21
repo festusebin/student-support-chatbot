@@ -29,16 +29,21 @@ This is a simple Natural Language Processing (NLP) chatbot designed to answer fr
 ```bash
 git clone https://github.com/festusebin/student-support-chatbot.git
 cd student-support-chatbot
+```
 
 ### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
+```
 
 ### 3. Run the chatbot
 
 ```bash
 python chatbot/main.py
+```
+
+Project Structure
 
 ```bash
 student-support-chatbot/
@@ -50,12 +55,18 @@ student-support-chatbot/
 │   └── faq_dataset.csv   # Dataset with Q&A pairs
 ├── requirements.txt
 └── README.md
+```
+
+### 4. Dependencies
+
+#### Add the following to your requirements.txt file
 
 ```bash
 pandas
 scikit-learn
+```
 
-👨‍💻 Built By
+### 5 👨‍💻 Built By
 Festus Ebin
 Aspiring MSc student in AI and Software Engineering
 GitHub: @festusebin
